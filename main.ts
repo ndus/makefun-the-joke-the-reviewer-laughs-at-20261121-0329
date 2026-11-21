@@ -1,3 +1,6 @@
+// Writes the competition entry: a single-line joke about working beside an AI coding agent.
+// Saves that entry as entry.txt in the output directory.
+// Runs deterministically and makes no network requests.
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
